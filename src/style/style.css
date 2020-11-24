@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #202020;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+}
+.nav > img {
+  height: 20px;
+  width: auto;
+}
+.nav > input {
+  flex: 0.9;
+  margin: 0 50px !important;
+  border-radius: 40px !important;
+  background-color: #121212 !important;
+  color: white !important;
+}
+.bgDark {
+  color: white !important;
+  background-color: #181818;
+}
+.m-body {
+  padding: 40px 10px !important;
+}
+
+/* App.js */
+.videoContainer {
+  background-color: #181818;
+  padding: 0px 30px;
+  margin-top: 0;
+}
+.videoPlayer{
+  margin-top: 40px;
+}
+.videoBody {
+  display: flex;
+}
+.videoList {
+  flex-shrink: 2;
+}
+@media (max-width: 900px) {
+  .videoBody {
+    display: block;
+  }
+}
