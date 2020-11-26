@@ -1,3 +1,9 @@
+# About the project
+This project will show you 5 YouTube video results related to your search query.
+
+## Project Image
+![project image](https://github.com/Neerajx11/yt-player/blob/master/public/ytplayer.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
